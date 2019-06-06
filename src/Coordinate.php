@@ -81,12 +81,23 @@ class Coordinate implements GeometryInterface
     }
     
     /**
+     * @param string $name
+     *
      * @return string
      */    
     public function setName(string $name): string
     {
         return $this->name = $name;
     }
+    
+    /**
+     * @return string
+     */    
+    public function getName(): string
+    {
+        return $this->name;
+    }
+    
     /**
      * Returns an array containing the point
      *
