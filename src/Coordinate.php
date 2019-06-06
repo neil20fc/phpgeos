@@ -24,6 +24,11 @@ class Coordinate implements GeometryInterface
     protected $lng;
 
     /**
+     * @var string
+     */
+    protected $name;
+    
+    /**
      * @var Ellipsoid
      */
     protected $ellipsoid;
