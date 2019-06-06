@@ -79,7 +79,14 @@ class Coordinate implements GeometryInterface
     {
         return $this->lng;
     }
-
+    
+    /**
+     * @return string
+     */    
+    public function setName(string $name): string
+    {
+        return $this->name = $name;
+    }
     /**
      * Returns an array containing the point
      *
